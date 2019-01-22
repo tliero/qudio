@@ -118,7 +118,7 @@ try:
             qr_code = qr_code.decode("utf-8") # python3
             logging.info("QR Code: " + qr_code)
             
-            if qr_code.startswith("http://"):
+            if qr_code.startswith("http://") or qr_code.startswith("https://"):
                 play(qr_code, 'webradio')
             elif qr_code.startswith("spotify:"):
                 play(qr_code, 'spop')
