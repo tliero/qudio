@@ -15,8 +15,8 @@ logging.info('Initializing')
 
 # Configuration
 MUSIC_BASE_DIRECTORY = "mnt/NAS/"
-SOUND_SCANNING = "mnt/INTERNAL/sounds/scanning.mp3"
-SOUND_SCAN_FAIL = "mnt/INTERNAL/sounds/fail-05.mp3"
+SOUND_SCANNING = "mnt/INTERNAL/qudio/sounds/scanning.mp3"
+SOUND_SCAN_FAIL = "mnt/INTERNAL/qudio/sounds/fail-05.mp3"
 QR_SCANNER_TIMEOUT = 4
 
 # photo sensor on PIN 5
