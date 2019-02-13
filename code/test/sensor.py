@@ -13,7 +13,7 @@ try:
     print('Start sensor test')
     
     while True:
-        time.sleep(0.5)
+        time.sleep(1)
         if (GPIO.input(5) == GPIO.LOW):
             print('LOW')
             GPIO.output(22, GPIO.LOW)
