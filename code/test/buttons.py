@@ -13,13 +13,13 @@ try:
     
     while True:
         if (GPIO.input(9) == False):
-            print('Button 1')
+            print('Button 1 (PREV)')
     
         if (GPIO.input(10) == False):
-            print('Button 2')
+            print('Button 3 (NEXT)')
     
         if (GPIO.input(11) == False):
-            print('Button 3')
+            print('Button 2 (PLAY/PAUSE)')
     
         time.sleep(0.25)
     
