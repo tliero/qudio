@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s - %(me
 logging.info('Initializing')
 
 # Configuration
-MUSIC_BASE_DIRECTORY = "mnt/NAS/"
+MUSIC_BASE_DIRECTORY = "mnt/"
 SOUND_SCANNING = "mnt/INTERNAL/qudio/sounds/scanning.mp3"
 SOUND_SCAN_FAIL = "mnt/INTERNAL/qudio/sounds/fail-05.mp3"
 QR_SCANNER_TIMEOUT = 4
