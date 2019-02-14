@@ -10,7 +10,7 @@ GPIO.setup(22, GPIO.OUT)
 GPIO.output(22, GPIO.LOW)
 
 try:
-    print('Start sensor test')
+    print('Start sensor test - End with Ctrl-C')
     
     while True:
         time.sleep(1)
