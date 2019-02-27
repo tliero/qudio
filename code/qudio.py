@@ -26,9 +26,9 @@ PIN_SENSOR = 5
 PIN_LED = 22
 
 # Buttons on PINs 9, 10 and 11
-PIN_PREV = 9
-PIN_NEXT = 10
-PIN_PLAY = 11
+PIN_PREV = 10
+PIN_PLAY = 9
+PIN_NEXT = 11
 
 
 GPIO.setmode(GPIO.BCM)
