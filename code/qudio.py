@@ -55,7 +55,6 @@ def prev_callback(channel):
     ## TODO implement seek
      
 def play_callback(channel):
-    global is_playing
     if is_playing:
         logging.info("PAUSE")
         socketIO.emit('pause')
